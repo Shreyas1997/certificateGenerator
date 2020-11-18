@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+</head>
+
+<body>
+    <label for="Name">Name of the Candidate:</label>
+    <br>
+    <input type="text" name="cName" id="candiName">
+    <br>
+    <label for="Designation">Designation:</label>
+    <br>
+    <input type="text" name="desg" id="candiDesg">
+    <br>
+    <label for="Tag">Cerificate tag:</label>
+    <br>
+    <input type="text" name="tag" id="candiTag">
+    <br>
+    <input type="date" name="date" id="iDate">
+    <br>
+    <input type="submit" id="submitBtn" value="Get Certificate">
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="filesaver.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
